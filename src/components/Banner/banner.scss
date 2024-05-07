@@ -1,0 +1,40 @@
+.banner-box {
+    position: relative;
+    width: 100%; /* Ajoutez cette propriété pour que la bannière occupe toute la largeur de l'écran */
+  }
+  
+  .image {
+    width: 100%; /* Ajustez la largeur de l'image pour qu'elle remplisse complètement son conteneur */
+    height: 700px; /* Garantit que la hauteur s'ajuste automatiquement pour conserver les proportions de l'image */
+    img{
+      object-fit: cover;
+      height: 700px;
+      width: 100%;
+    }
+  
+  }
+  
+  .introduction{
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2, p{
+      margin: 5px
+    };
+  }
+  
+  @media (max-width: 920px) {
+    .banner {
+      background-position: 0 -3.125rem;
+      height: 300px;
+  
+    }
+  }
+  

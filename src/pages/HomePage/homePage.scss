@@ -1,0 +1,26 @@
+
+.cardP{
+    background: rgb(240, 240,240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 71px 0px;
+
+    
+
+    width: 100%;
+    &-section-title{
+        font-size: 30px;
+    }
+    
+    &-data{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 50px; // Espacement entre les éléments de la grille
+        padding: 30px;
+    
+    }
+  
+  
+
+}

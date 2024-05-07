@@ -1,0 +1,17 @@
+.cardP {
+  background: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 71px 0px;
+  width: 100%;
+}
+.cardP-section-title {
+  font-size: 30px;
+}
+.cardP-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 30px;
+}/*# sourceMappingURL=homePage.css.map */

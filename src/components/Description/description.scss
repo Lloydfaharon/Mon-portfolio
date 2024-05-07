@@ -1,0 +1,36 @@
+.box{
+    height: 500px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 30px;
+    }
+
+    &-2{
+        display: flex;
+        &-image{
+            margin: 10px;
+           
+            img{
+                width: 184px;
+                height: 289px;
+                object-fit: cover;
+                border-radius: 5px;
+                box-shadow: 0 0 10px 5px rgb(192, 190, 190);
+    
+            }
+        }
+        &-texte{
+            margin: 10px 45px;
+    
+            p{
+                font-size: 28px;
+            }
+        }
+
+    }
+
+    
+}

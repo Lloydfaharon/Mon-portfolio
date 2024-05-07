@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react';
+import "./App.css";
+
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/footer";
+
+import HomePage from "./pages/HomePage/homePage";
+import ErrorPage from "./pages/ErrorPage/errorPage";
+
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom"; 
+
+
+// Définit un composant fonctionnel pour intégrer Header et Footer autour du contenu enfant
+const LayoutWithHeaderFooter = ({ children }) => (
+  <>
+    <Header />
+    {children}
+    <Footer />
+  </>
+);
+
+// Crée un routeur en utilisant la fonction createBrowserRouter de React Router
+const router = createBrowserRouter([
+  {
+    path: "/", 
+    element: <LayoutWithHeaderFooter><HomePage /></LayoutWithHeaderFooter>, 
+  },
+  {
+    path: "*", 
+    element: <LayoutWithHeaderFooter><ErrorPage /></LayoutWithHeaderFooter>, 
+  },
+]);
+
+export default function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
   );
 }
-
-export default App;
