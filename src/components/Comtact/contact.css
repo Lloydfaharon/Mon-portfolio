@@ -12,11 +12,13 @@
 }
 .contact .logo-reso {
   display: flex;
+  justify-content: center;
+  width: 100%;
   gap: 50px;
 }
 .contact .logo-reso img {
   width: 100px;
-  height: 100px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -89,4 +91,24 @@
 }
 .contact-form .button button:hover {
   background-color: #0056b3; /* Nouvelle couleur de fond au survol */
+}
+
+@media (max-width: 800px) {
+  .contact {
+    padding: 10px 15px 15px;
+  }
+}
+@media (max-width: 390px) {
+  .contact {
+    padding: 10px 15px 15px;
+  }
+}
+@media (max-width: 510px) {
+  .contact .logo-reso {
+    gap: 40px;
+  }
+  .contact .logo-reso img {
+    width: 70px;
+    height: auto;
+  }
 }/*# sourceMappingURL=contact.css.map */

@@ -12,10 +12,12 @@
     }    
     .logo-reso{
         display: flex;
+        justify-content: center;
+        width: 100%;
         gap: 50px;
         img{
             width: 100px;
-            height: 100px;
+            height: auto;
             object-fit: cover;
             
         }
@@ -98,3 +100,32 @@
   }
   
 }
+ // Média-query pour les écrans de petite taille
+ @media (max-width: 800px) {
+    .contact{
+        padding: 10px 15px 15px;
+    }
+    
+  }
+ @media (max-width: 390px) {
+    .contact{
+        padding: 10px 15px 15px;
+    }
+   
+  }
+ 
+  @media (max-width: 510px) {
+    .contact{
+        .logo-reso{
+            gap: 40px;
+            img{
+                width: 70px;
+                height: auto;
+            }
+        }
+    
+    }
+    
+  }
+
+  

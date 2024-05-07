@@ -14,7 +14,6 @@
     height: 250px;
     //object-fit: cover;
     border-radius: 15px 15px 0 0;
- 
   }
   h2,
   p {
@@ -22,15 +21,24 @@
     text-align: center;
     margin: 8px;
   }
-  .competence{
+  .competence {
     font-size: 20px;
     font-weight: bold;
   }
-  .icons{
+  .icons {
     display: flex;
-    img{
-        height: 70px;
-        width: 70px;
+    img {
+      height: 70px;
+      width: 70px;
     }
   }
+
+ 
 }
+// Média-query pour les écrans de petite taille
+@media (max-width: 395px) {
+    .card {
+      width: 356px;
+      height: 650px;
+    }
+  }

@@ -29,4 +29,11 @@
 .card .icons img {
   height: 70px;
   width: 70px;
+}
+
+@media (max-width: 395px) {
+  .card {
+    width: 356px;
+    height: 650px;
+  }
 }/*# sourceMappingURL=projet.css.map */

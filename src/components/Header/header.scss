@@ -8,6 +8,8 @@
 }
 h1 {
   font-size: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .link {
@@ -25,4 +27,33 @@ h1 {
     text-decoration: none;
     color: black;
   }
+}
+ // Média-query pour les écrans de petite taille
+ @media (max-width: 1360px) {
+  .link{
+    font-size:20px ;
+  }
+}
+
+@media (max-width: 550px) {
+  .link{
+    font-size:15px ;
+    gap: 30px;
+  }
+  h1 {
+    font-size: 20px;
+   
+  }
+  
+}
+@media (max-width: 400px) {
+  .link{
+    font-size:12px ;
+    gap: 20px;
+  }
+  h1 {
+    font-size: 20px;
+   
+  }
+ 
 }
