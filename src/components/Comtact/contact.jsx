@@ -23,11 +23,11 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Ici vous pouvez ajouter la logique d'envoi du message
+    
     console.log("Nom et Prénom :", name);
     console.log("Email :", email);
     console.log("Message envoyé :", message);
-    // Réinitialisation des champs après l'envoi
+   
     setName("");
     setEmail("");
     setMessage("");
