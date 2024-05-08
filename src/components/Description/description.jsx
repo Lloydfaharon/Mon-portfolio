@@ -13,13 +13,13 @@ function description() {
         <div className="box-2-texte">
           <p>
             Bonjour, je suis <strong>Riner</strong>, un passionné de
-            technologie et développeur web. <br /> Avec une solide expérience
+            technologie, issu d'une formation Openclassrooms d'intégrateur web. <br /> Doté d'une solide expérience
             dans la création d'interfaces web dynamiques et conviviales, <br />
-            je m'efforce de donner vie aux idées grâce à un code propre et
+            je donne vie aux idées grâce à un code propre et
             efficace. <br />
             Par le biais de mon portfolio, je vous invite à découvrir mes
             projets,
-            <br /> où créativité, fonctionnalité et excellence technique se
+            <br /> où, créativité, fonctionnalité et excellence technique se
             rencontrent <br />
             pour offrir des expériences numériques remarquables.
           </p>

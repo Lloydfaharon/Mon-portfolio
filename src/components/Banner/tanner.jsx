@@ -9,7 +9,7 @@ function banner() {
       </section>
       <section className='introduction'>
         <h2 className='sr-only'>Entrez dans mon univers</h2>
-        <p className='subtitle'>ou toutes les idee devienne realiter</p>
+        <p className='subtitle'>où toutes les idées deviennent realité</p>
       </section>
     </div>
   );
