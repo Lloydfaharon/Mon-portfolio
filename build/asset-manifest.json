@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Mon-portfolio/static/css/main.7f9347b5.css",
+    "main.js": "/Mon-portfolio/static/js/main.78f48ba2.js",
+    "static/js/453.c73b9fbb.chunk.js": "/Mon-portfolio/static/js/453.c73b9fbb.chunk.js",
+    "static/media/sophie-bluel.png": "/Mon-portfolio/static/media/sophie-bluel.9937f47410e6ddf75003.png",
+    "static/media/kasa.png": "/Mon-portfolio/static/media/kasa.eb1e920333c22c1b113c.png",
+    "static/media/moi1.jpg": "/Mon-portfolio/static/media/moi1.71489ee7c9f35c62b454.jpg",
+    "static/media/argentbank.png": "/Mon-portfolio/static/media/argentbank.c1acd8915ee10c857786.png",
+    "static/media/instagram.png": "/Mon-portfolio/static/media/instagram.80e598d8df0c0a94d580.png",
+    "static/media/banner-img2.jpg": "/Mon-portfolio/static/media/banner-img2.af84b2193b458558d646.jpg",
+    "static/media/icon4.png": "/Mon-portfolio/static/media/icon4.0558b553dee32d78f597.png",
+    "static/media/twitter.png": "/Mon-portfolio/static/media/twitter.35c0bca4d432a0f41ad0.png",
+    "static/media/icon3.png": "/Mon-portfolio/static/media/icon3.3f73c657e74fc1909733.png",
+    "static/media/icon1.png": "/Mon-portfolio/static/media/icon1.7e4084d74e2f2f6a359d.png",
+    "static/media/facebook.png": "/Mon-portfolio/static/media/facebook.5ce3a1ca8559b4dc0487.png",
+    "index.html": "/Mon-portfolio/index.html",
+    "main.7f9347b5.css.map": "/Mon-portfolio/static/css/main.7f9347b5.css.map",
+    "main.78f48ba2.js.map": "/Mon-portfolio/static/js/main.78f48ba2.js.map",
+    "453.c73b9fbb.chunk.js.map": "/Mon-portfolio/static/js/453.c73b9fbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f9347b5.css",
+    "static/js/main.78f48ba2.js"
+  ]
+}
