@@ -1,9 +1,9 @@
 import React from "react";
 import "./homePage.scss";
-import Banner from "../../components/Banner/banner.jsx";
+import Banner from "../../components/Banner/tanner.jsx";
 import Description from "../../components/Description/description.jsx";
 import Projet from "../../components/Projet/projet.jsx";
-import Contact from "../../components/Comtact/contact.jsx"
+import Contact from "../../components/Comtact/contact.jsx";
 import cardData from "../../Datas/cardData.json";
 
 import projet1 from "../../image/sophie-bluel.png";
