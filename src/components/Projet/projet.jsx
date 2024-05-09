@@ -8,6 +8,7 @@ function projet({
   description,
   competence,
   link,
+  link2,
   icons,
 }) {
   return (
@@ -25,6 +26,7 @@ function projet({
           ))}
         </div>
         <a href={link}>Lien vers le projet</a>
+        <a href={link2}>Lien vers le site</a>
       </div>
     </div>
   );

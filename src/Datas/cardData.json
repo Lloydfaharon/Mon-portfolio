@@ -7,6 +7,7 @@
         "description": "Ce site est le portfolio d'une architecte d'intérieur. ",
         "competence" : "Ce projet m'a principalement permis d'utiliser sass & javascript avec les appels API" ,
         "link" :"https://github.com/Lloydfaharon/Lloydfaharon-sophie-bluel.git",
+        "link2" :"https://github.com/Lloydfaharon/Lloydfaharon-sophie-bluel.git",
         "icons":["icon1.png", "icon2.png"]
     }
     ,
@@ -18,6 +19,7 @@
         "description": "Ce site est une application web de location d’appartements entre particuliers comme Airbnb. ",
         "competence" : "Ce projet m'a principalement permis d'utiliser React & javascript avec les appels API",
         "link":"https://github.com/Lloydfaharon/kasa.git",
+        "link2" :"https://kasa-projet.netlify.app",
         "icons":["icon1.png", "icon2.png", "icon3.png"]
     },
     {
@@ -28,6 +30,7 @@
         "description": "Ce site permet aux utilisateurs de se connecter et d'accéder à leur profil. L'utilisateur peut voir et modifier ses informations qui seront conservées dans la base de données MongoDB.",
         "competence" : "Ce projet m'a principalement permis d'utiliser Redux, React & javascript avec les appels API",
         "link":"https://github.com/Lloydfaharon/frontend.git",
+        "link2" :"https://projet11-argentbank.netlify.app",
         "icons":["icon2.png", "icon3.png", "icon4.png"]
 
     

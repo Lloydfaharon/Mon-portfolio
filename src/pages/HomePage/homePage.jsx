@@ -44,6 +44,7 @@ function homePage() {
               description={data.description}
               competence={data.competence}
               link={data.link}
+              link2={data.link2}
               icons={data.icons.map((icon) => iconData[icon])}
             />
           ))}
