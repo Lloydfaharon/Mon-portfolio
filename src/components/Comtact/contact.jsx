@@ -37,12 +37,13 @@ function Contact() {
     <section className="contact">
       <h2>Contactez-nous</h2>
       <div className="contact-container">
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit} data-netlify="true">
           <div className="chan">
             <label htmlFor="name"></label>
             <input className="in"
               type="text"
               id="name"
+              name="name" 
               value={name}
               onChange={handleNameChange}
               placeholder="Entrez votre nom et prénom"
@@ -54,6 +55,7 @@ function Contact() {
             <input className="in"
               type="email"
               id="email"
+              name="email"
               value={email}
               onChange={handleEmailChange}
               placeholder="Entrez votre email"
@@ -65,6 +67,7 @@ function Contact() {
             <textarea className="in"
               id="message"
               value={message}
+              name="message"
               onChange={handleMessageChange}
               rows={4}
               cols={50}
