@@ -6,7 +6,7 @@ import Projet from "../../components/Projet/projet.jsx";
 import Contact from "../../components/Comtact/contact.jsx";
 import cardData from "../../Datas/cardData.json";
 
-import projet1 from "../../image/sophie-bluel.png";
+import projet1 from "../../image/booki.png";
 import projet2 from "../../image/kasa.png";
 import projet3 from "../../image/argentbank.png";
 
@@ -14,10 +14,12 @@ import icon1 from "../../image/icon1.png";
 import icon2 from "../../image/icon2.png";
 import icon3 from "../../image/icon3.png";
 import icon4 from "../../image/icon4.png";
+import icon5 from "../../image/icon5.png";
+import icon6 from "../../image/icon6.png";
 
 function homePage() {
   const imageData = {
-    "sophie-bluel.png": projet1,
+    "booki.png": projet1,
     "kasa.png": projet2,
     "argentbank.png": projet3,
   };
@@ -26,6 +28,9 @@ function homePage() {
     "icon2.png": icon2,
     "icon3.png": icon3,
     "icon4.png": icon4,
+    "icon5.png": icon5,
+    "icon6.png": icon6,
+
   };
   return (
     <div>
