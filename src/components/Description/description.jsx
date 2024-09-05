@@ -1,6 +1,6 @@
 import React from "react";
 import "./description.css";
-import Image from "../../image/moi1.jpg";
+import Image from "../../image/moi2.png";
 
 function description() {
   return (
@@ -12,8 +12,8 @@ function description() {
         </div>
         <div className="box-2-texte">
           <p>
-            Bonjour, je suis <strong>Riner</strong>, un passionné de
-            technologie, issu d'une formation Openclassrooms d'intégrateur web. <br /> Doté d'une solide expérience
+            Bonjour, je suis <strong>Alexandre</strong>, un passionné de
+            technologie, issu d'une formation Openclassrooms bac+2 intégrateur web. <br /> Doté d'une solide expérience
             dans la création d'interfaces web dynamiques et conviviales, <br />
             je donne vie aux idées grâce à un code propre et
             efficace. <br />
