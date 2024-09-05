@@ -5,11 +5,23 @@
   padding: 0px 20px; 
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre douce */
   background-color: white; 
+  
 }
+.block-logo{
+  display: flex;
+}
+.image-header{
+  margin-top: 28px;
+  width: 50px;
+  height: 50px;
+  
+}
+
 h1 {
   font-size: 40px;
   display: flex;
   align-items: center;
+  color: rgb(58, 57, 57);
 }
 
 .link {
