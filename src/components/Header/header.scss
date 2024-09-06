@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -5,6 +9,9 @@
   padding: 0px 20px; 
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre douce */
   background-color: white; 
+  // position:sticky;
+  // z-index: 9;
+  // width: 100%;
   
 }
 .block-logo{
